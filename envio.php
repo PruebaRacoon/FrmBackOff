@@ -30,7 +30,7 @@ function pagina(bool $ok, string $titulo, array $mensajes): void
 
 // Solo se acepta POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header('Location: formulario.html');
+    header('Location: index.html');
     exit;
 }
 
